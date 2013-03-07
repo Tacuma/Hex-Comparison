@@ -332,13 +332,13 @@ hex2dec:
 			 sw $t8, 12($sp)
 			 jr $ra	
 
-  		 end:	la $a0, str5          #  TO SEE THE INTEGER VALUE OF ENTERED HEXADECIMAL,
-			li $v0, 4	      #   UNCOMMENT THIS BLOCK OF CODE
-			syscall 
+  		 end:	#la $a0, str5          #  TO SEE THE INTEGER VALUE OF ENTERED HEXADECIMAL,
+			#li $v0, 4	       #  UNCOMMENT THIS BLOCK OF CODE
+			#syscall 
 
-			move $a0, $v1	 		
-			li $v0, 1
-			syscall
+			#move $a0, $v1	 		
+			#li $v0, 1
+			#syscall
  			
 			sw $v1, 12($sp)       #  Places the integer value into the stack
 			
