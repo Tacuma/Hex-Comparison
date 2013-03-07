@@ -1,4 +1,3 @@
-
 Comparing Two Hexadecimal numbers in MIPS
 =======
 
@@ -20,7 +19,7 @@ Output:
 	
 Data Structures/Concepts Used:
 ==============================
-Programming in SPIM, Knowledge of MIPS ISA, stack, registers
+Programming in SPIM, Knowledge of MIPS ISA, stack, registers.
 
 
 Description:
